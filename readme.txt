@@ -17,7 +17,7 @@ smilesstringcomp1,smilesstringcomp2
 ...,...
 smilesstringcompn,smilesstringcompm
 
-and saved as cc.csv inside the main deepcocrystal directory (can use also another name, but then you need to change the predict.py file at the 6th line: df = pd.read_csv("YOURFILENAME.csv").
+and saved as cc.csv inside the main deepcocrystal directory (can use also another name, but then you need to change the predict.py file at the 6th line: df = pd.read_csv("YOURFILENAME.csv")).
 
 # run on the prediction
 First navigate to the dc main directory. Open cmd and type those commands:
@@ -25,6 +25,6 @@ cd PATH/TO/deep-cocrystal (the path depends on where you have decided to install
 python predict.py
 
 DONE.
-the output is saved as result.csv inside main deep-cocrystal directory.
+the output is saved as predictions.csv inside main deep-cocrystal directory.
 
 
